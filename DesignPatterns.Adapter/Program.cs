@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DesignPatterns.Adapter.Devices;
+using System;
 
 namespace DesignPatterns.Adapter
 {
@@ -13,6 +10,15 @@ namespace DesignPatterns.Adapter
     {
         static void Main(string[] args)
         {
+            var laptop = new Laptop();
+            var dvdDrive = new DvdDrive();
+            dvdDrive.Disk = new DvdDisk();
+            laptop.UsbDevice = dvdDrive;
+
+            Console.WriteLine("Writing and reading using DVD Drive");
+            laptop.WriteToExternalDevice("Some information");
+            Console.WriteLine("Returned data: {0}", laptop.ReadFromExternalDevice());
+            Console.ReadLine();
         }
     }
 }

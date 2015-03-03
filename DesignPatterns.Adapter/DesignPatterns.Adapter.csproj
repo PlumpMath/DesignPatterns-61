@@ -41,6 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Devices\DvdDisk.cs" />
+    <Compile Include="Devices\DvdDrive.cs" />
+    <Compile Include="Interfaces\IDvdDisk.cs" />
+    <Compile Include="Interfaces\IUsbDevice.cs" />
+    <Compile Include="Laptop.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
