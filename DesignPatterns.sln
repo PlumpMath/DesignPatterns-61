@@ -60,6 +60,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Prototype", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Visitor", "DesignPatterns.Visitor\DesignPatterns.Visitor.csproj", "{D89555F5-56B7-4A72-BD22-1A0B03851502}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Flyweight", "DesignPatterns.Flyweight\DesignPatterns.Flyweight.csproj", "{DDDA5CD6-A45C-49E8-95C3-DFA6ECD99E5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -162,6 +164,10 @@ Global
 		{D89555F5-56B7-4A72-BD22-1A0B03851502}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D89555F5-56B7-4A72-BD22-1A0B03851502}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D89555F5-56B7-4A72-BD22-1A0B03851502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDDA5CD6-A45C-49E8-95C3-DFA6ECD99E5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDDA5CD6-A45C-49E8-95C3-DFA6ECD99E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDDA5CD6-A45C-49E8-95C3-DFA6ECD99E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDDA5CD6-A45C-49E8-95C3-DFA6ECD99E5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
